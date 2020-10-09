@@ -35,7 +35,9 @@ public class operaciones {
         dato1= lector.nextInt();
         dato2= lector.nextInt();
         total=lista.get(dato1)-lista.get(dato2);
-        System.out.println("EL TOTAL DE LA SUMA ES"+total);
+        System.out.println("EL TOTAL DE LA RESTA ES"+total);
+
+           
     }
           public void multiplicar(){
         int total=0;
@@ -45,6 +47,6 @@ public class operaciones {
         dato2= lector.nextInt();
         dato3= lector.nextInt();
         total=lista.get(dato1)*lista.get(dato2)* lista.get(dato3);
-        System.out.println("EL TOTAL DE LA SUMA ES"+total);
+                      System.out.println("EL TOTAL DE LA MULTIPLICACION ES"+total);
     }
   }  
